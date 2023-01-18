@@ -24,6 +24,17 @@ const Home: NextPage = () => {
              <button className='relative bottom-0 bg-[#fba400] text-black font-bold py-2'>Leer meer</button>
             </div>
        </section>
+       <br />
+       <br />
+        <hr  className='text-white'/>
+       <section className='flex flex-row gap-9  p-5 xs:flex-col md:flex-row lg:flex-row'>
+         <div className="flex-1   ">
+             <h1 className='font-bold text-3xl text-white'>Voedingsschema binnen 1 minuut!</h1>
+            <p className='text-[#bcbcbc]'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti sunt sint explicabo quia consequuntur? Minus quia quis similique hic ut! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, rem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta, deserunt.</p>
+            
+         </div>
+         <div className='flex-1 rounded-xl shadow-3xl'><img  className='rounded-3xl w-[600px]  m-auto items-center shadow-3xl' src="https://images.pexels.com/photos/1153369/pexels-photo-1153369.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"></img></div>
+       </section>
     </div>
     </>
 
