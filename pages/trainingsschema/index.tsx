@@ -62,10 +62,10 @@ export default function index() {
       <div>
          {!data && (
             <div className='flex flex-col gap-2'>
-                <h1 className="font-bold text-2xl">Stap 1. BMI berekenen </h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo perspiciatis culpa nostrum quos sint eum laudantium earum vel harum numquam?</p>
+                <h1 className="font-bold text-2xl text-white">Stap 1. BMI berekenen </h1>
+                <p className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo perspiciatis culpa nostrum quos sint eum laudantium earum vel harum numquam?</p>
                 <div className='form-group flex flex-col gap-3'>
-                <div className='flex flex-row gap-3'>
+                <div className='flex flex-row gap-3 text-teal-50' >
                     <input type="radio" value="Male" name="gender"/> Man
                     <input type="radio" value="Female" name="gender" /> Vrouw
                 </div>

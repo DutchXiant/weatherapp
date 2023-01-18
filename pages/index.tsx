@@ -18,7 +18,7 @@ const Home: NextPage = () => {
           <div className='p-5 shadow-md md:max-w-[80%] flex flex-col gap-3 md:m-auto'>
             <p className='font-bold text-3xl text-white'>Gepersonaliseerd Trainings Schema🏋️ </p>
             <p className="text-[#bcbcbc] text-lg">Ontvang binnen 1 minuut een professioneel trainingsschema afsteld op jouw fitness doelen.    </p>
-            <button className=' bg-[#fba400] py-2 text-black font-bold'>Maak trainingsschema!</button>
+            <Link href="/trainingsschema" className='bg-[#fba400] py-2 text-black font-bold text-center'> <button>Maak trainingsschema!</button></Link>
            </div>
            <div className='p-5 shadow-md md:max-w-[80%] flex flex-col gap-3  md:m-auto'>
             <p className='font-bold text-3xl text-white'>Gepersonaliseerd voedingschema's📝</p>
