@@ -13,17 +13,17 @@ const Home: NextPage = () => {
         <div className='p-5 shadow-md md:max-w-[80%] flex flex-col gap-3  md:m-auto'>
              <p className='font-bold  text-3xl text-white'>Join ons discord kamp!🧑‍🤝‍🧑</p> 
              <p className='text-[#bcbcbc] text-lg'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti culpa repudiandae porro. Eum iure laborum nobis, quod placeat accusantium quos.</p>
-             <button className='relative bottom-0 text-lg bg-[#fba400] text-black font-bold py-2'>Leer meer</button>
+             <button className='relative bottom-0 text-lg bg-[#fba400] text-black font-bold py-2'>Join nu!</button>
             </div>
           <div className='p-5 shadow-md md:max-w-[80%] flex flex-col gap-3 md:m-auto'>
             <p className='font-bold text-3xl text-white'>Gepersonaliseerd Trainings Schema🏋️ </p>
             <p className="text-[#bcbcbc] text-lg">Ontvang binnen 1 minuut een professioneel trainingsschema afsteld op jouw fitness doelen.    </p>
-            <button className=' bg-[#fba400] py-2 text-black font-bold'>Leer meer</button>
+            <button className=' bg-[#fba400] py-2 text-black font-bold'>Maak trainingsschema!</button>
            </div>
            <div className='p-5 shadow-md md:max-w-[80%] flex flex-col gap-3  md:m-auto'>
             <p className='font-bold text-3xl text-white'>Gepersonaliseerd voedingschema's📝</p>
             <p className="text-[#bcbcbc] text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ducimus in harum ea. Sequi adipisci similique dolorum vitae laboriosam deserunt!</p>
-            <button className=' bg-[#fba400] py-2 font-bold text-black'>Leer meer</button>
+            <button className=' bg-[#fba400] py-2 font-bold text-black'>Maak budget voedingsschema</button>
            </div>
        </section>
        <br />
