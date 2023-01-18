@@ -12,7 +12,7 @@ const Home: NextPage = () => {
        <section className='flex gap-3 sm:flex-col lg:flex-row md:flex-col xs:flex-col'>
         <div className='p-5 shadow-md md:max-w-[80%] flex flex-col gap-3  md:m-auto'>
              <p className='font-bold  text-3xl text-white'>Join ons discord kamp!🧑‍🤝‍🧑</p> 
-             <p className='text-[#bcbcbc] text-lg'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti culpa repudiandae porro. Eum iure laborum nobis, quod placeat accusantium quos.</p>
+             <p className='text-[#bcbcbc] text-lg'>Zoek jij motivatie, of iemand om mee naar de sportschool te gaan? Join dan vandaag de FitCamp Discord. In dit kamp praten we met elkaar over fitness, delen we tips & tricks en delen we onze progressie. Join the camp now!</p>
              <button className='relative bottom-0 text-lg bg-[#fba400] text-black font-bold py-2'>Join nu!</button>
             </div>
           <div className='p-5 shadow-md md:max-w-[80%] flex flex-col gap-3 md:m-auto'>

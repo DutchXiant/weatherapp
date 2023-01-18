@@ -85,15 +85,15 @@ export default function index() {
          {data && (
             <div>
                 <div className='flex flex-col gap-4'>
-                    <h1 className="font-bold text-2xl">Stap 2. Doellen stellen</h1>
-                    <p className='text-sm'>Jouw BMI is <span className='font-bold text-[15px]'>{data}</span>  en je weegt: <span className='font-bold text-[15px]'>{input1}kg</span> Omschrijf nu hoeveel kilo je wilt afvallen, en hoeveel maanden dat mag duren. </p>
+                    <h1 className="font-bold text-2xl text-white">Stap 2. Doellen stellen</h1>
+                    <p className='text-sm text-white'>Jouw BMI is <span className='font-bold text-[15px]'>{data}</span>  en je weegt: <span className='font-bold text-[15px]'>{input1}kg</span> Omschrijf nu hoeveel kilo je wilt afvallen, en hoeveel maanden dat mag duren. </p>
                         <input type="text" className='py-2 px-5' placeholder='Hoeveel kilo wil je afvallen? ' value={kiloGoal} onChange={(e) => setKiloGoal(e.target.value)} />
                         <input type="number"  className='py-2 px-5'  min="1" max="99" placeholder='Hoeveel maanden? ' value={monthsGoal} onChange={(e) => setMonthsGoal(e.target.value)}></input>
                     </div>
                     <br />
                 <div className='flex flex-col gap-4'>
-                    <h1 className="font-bold text-2xl">Stap 3. Budget per maaltijd instellen</h1>
-                    <p className='text-sm'>Stel hier je budget in voor elke maaltijd. </p>
+                    <h1 className="font-bold text-2xl text-white">Stap 3. Budget per maaltijd instellen</h1>
+                    <p className='text-sm text-white'>Stel hier je budget in voor elke maaltijd. </p>
                         <input type="number"  className='py-2 px-5'  min="1" max="99" placeholder='Budget in euro:  ' value={budget} onChange={(e) => setBudget(e.target.value)}></input>
                         <button className='bg-[#FFA400] py-2 px-5 font-bold' onClick={stepTwoHandler}>Maak voedingsplan!</button>
 
