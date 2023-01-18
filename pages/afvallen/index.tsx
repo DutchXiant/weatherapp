@@ -56,7 +56,7 @@ export default function index() {
 
 
   return (
-    <div className='flex flex-col w-[80%] p-10 gap-5 m-auto'>
+    <div className='flex flex-col w-[90%] p-10 gap-2 m-auto'>
       {/* Step one  */}
 
       <div>
