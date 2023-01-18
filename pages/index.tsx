@@ -3,6 +3,7 @@ import Link from 'next/link'
 
 const Home: NextPage = () => {
   return (
+    <div>
     <div className='w-[85%] m-auto p-5'>
        <div className='flex flex-1 justify-center'>
            <img src="https://i.ibb.co/RYVtpxz/undraw-Tasting-re-3k5a-removebg-preview.png"></img>
@@ -13,6 +14,7 @@ const Home: NextPage = () => {
            <button className="bg-[#FFA400] font-bold py-2">Nu proberen!</button>
        </div>
        
+    </div>
     </div>
 
 
