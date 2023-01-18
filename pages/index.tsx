@@ -3,19 +3,28 @@ import Link from 'next/link'
 
 const Home: NextPage = () => {
   return (
-    <div>
-    <div className='w-[85%] m-auto p-5'>
-       <div className='flex flex-1 justify-center'>
-           <img src="https://i.ibb.co/RYVtpxz/undraw-Tasting-re-3k5a-removebg-preview.png"></img>
-       </div>
-       <div className='bg-white flex flex-1 flex-col p-5 shadow-xl gap-2'>
-           <h1 className='text-2xl font-extrabold'>Hoe werkt het?</h1>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis nulla aspernatur dolor provident! Molestiae qui, sed aliquid quidem laudantium eaque.</p>
-           <button className="bg-[#FFA400] font-bold py-2">Nu proberen!</button>
-       </div>
-       
+    <>
+    <div className='w-[85%] m-auto p-5 flex flex-col flex-1 justify-center items-center'>
+       <h1 className='font-bold text-3xl flex'>Wat is MyFitCamp? </h1>
+       <section className='flex gap-3 justify-evenly'>
+          <div className='p-5 shadow-md max-w-[300px] flex flex-col gap-3'>
+            <p className='font-bold text-lg'>Gepersonaliseerde bodingsschema's</p>
+            <p className="text-[#bcbcbc]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ducimus in harum ea. Sequi adipisci similique dolorum vitae laboriosam deserunt!</p>
+            <button className=' bg-[#232528] text-white py-2'>Leer meer</button>
+           </div>
+           <div className='p-5 shadow-md max-w-[300px] flex flex-col gap-3'>
+            <p className='font-bold text-lg'>Gepersonaliseerde voedingschema's</p>
+            <p className="text-[#bcbcbc]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ducimus in harum ea. Sequi adipisci similique dolorum vitae laboriosam deserunt!</p>
+            <button className=' bg-[#232528] text-white py-2'>Leer meer</button>
+           </div>
+           <div className='p-5 shadow-md max-w-[300px] flex flex-col gap-3'>
+             <p className='font-bold  text-lg'>Community van fitness die-hards!</p> 
+             <p className='text-[#bcbcbc]'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti culpa repudiandae porro. Eum iure laborum nobis, quod placeat accusantium quos.</p>
+             <button className='relative bottom-0 bg-[#232528] text-white py-2'>Leer meer</button>
+            </div>
+       </section>
     </div>
-    </div>
+    </>
 
 
   )
