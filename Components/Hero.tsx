@@ -9,10 +9,9 @@ export default function Hero() {
             <h1 className=" text-center text-5xl text-white font-bold drop-shadow-lg">Welkom bij 
             <span className="text-[#FFA400]"> MyFitCamp!</span>
             </h1>
-            <p className="mt-5 text-center text-lg text-white opacity-70">This webiste is about programming and things like
-                that</p>
+            <p className="mt-5 text-center text-lg text-white opacity-70">Weet wat je moet eten om jouw doelen te behalen</p>
             <a className="mt-8 px-12 py-3 bg-gradient-to-r from-[#FFA400] to-red-600 hover:from-amber-600 hover:to-red-700 text-xl text-white/70 font-semibold drop-shadow-lg rounded-full"
-                href="#">Get Started</a>
+                href="#">Nu starten</a>
         </div>
     </header>
     </div>

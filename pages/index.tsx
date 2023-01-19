@@ -7,7 +7,6 @@ import Hero from '../Components/Hero'
 const Home: NextPage = () => {
   return (
     <>
-        <hr  className='text-white'/>
         <Hero />
         {/* Section Header */ }
         <div className='container width-[85%] m-auto'>
