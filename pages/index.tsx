@@ -8,6 +8,7 @@ import Card from '../Components/Card'
 const Home: NextPage = () => {
   return (
     <>
+    <h1>Hello</h1>
         <Hero title="MyFitCamp" description="Fit worden begint bij" />
         {/* Section Header */ }
         <div className='container width-[85%] m-auto'>
