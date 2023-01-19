@@ -1,6 +1,5 @@
 import React from 'react'
 import Link from 'next/link'
-import { PromiseProvider } from 'mongoose'
 import { useRouter } from 'next/router'
 
 
