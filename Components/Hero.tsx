@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link';
 import { useRouter } from 'next/router'
 
 export default function Hero(props) {
@@ -17,9 +18,8 @@ export default function Hero(props) {
             </h1>
             {asPath == '/' && (
               <div className='flex flex-col items-center justify-center'>
-                  <a className="mt-8 px-12 py-3 bg-gradient-to-r from-[#FFA400] to-red-600 hover:from-amber-600 hover:to-red-700 text-xl text-white/70 font-semibold drop-shadow-lg rounded-full"
-                  href="#">Nu starten!</a>
-                  <p className="mt-5 text-center text-lg text-white opacity-70">Weet wat je moet eten om jouw doelen te behalen</p>
+                  <Link  href="/funnel" className="mt-8 px-12 py-3 bg-gradient-to-r from-[#FFA400] to-red-600 hover:from-amber-600 hover:to-red-700 text-xl text-white/70 font-semibold drop-shadow-lg rounded-full">Nu starten!</Link>
+                  
                   </div>
             )}
         </div>
