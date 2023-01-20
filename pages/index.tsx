@@ -11,11 +11,12 @@ const Home: NextPage = () => {
         <Hero title="MyFitCamp" description="Fit worden begint bij" />
         {/* Section Header */ }
         <div className='container width-[85%] m-auto'>
-            <section className='flex mt-5 mb-5 xs:flex-col md:flex-col sm:flex-col lg:flex-col xl:flex-row'>
+            <section className='flex mt-5 mb-5 xs:flex-col h-5 md:flex-col sm:flex-col lg:flex-col xl:flex-row'>
                 {/* All card */}
-                <Card title="Fitness Tools 💪" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia. Nesciunt quo incidunt enim fugit! Quisquam labore molestiae mollitia cum?" btnText="Gebruik fitness tools"/>
-                <Card title="Gratis leerstof 📚" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia. Nesciunt quo incidunt enim fugit! Quisquam labore molestiae mollitia cum?" btnText="Download ebooks"/>
-                <Card title="Community 🫂" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia. Nesciunt quo incidunt enim fugit! Quisquam labore molestiae mollitia cum?" btnText="Bekijk community"/> 
+              <center>
+                <h1 className='text-white font-bold md:text-3xl sm:text-2xl'>Workout Schema binnen 1 minuut!</h1>
+               <div className='max-w-[500px]' > <p className=' text-gray-500'>Loop je ooit in de sportschool, en denk je: had ik nou maar een vast workout schema afsteld op mijn doelen? Dan is MyFitCamp de enige oplossing. Start de quiz hier boven en laat een workoutschema, en voedingsschema op maat maken <b>binnen 1 minuut!</b> </p></div>
+              </center>
           </section>
        </div>
     </>
