@@ -17,7 +17,7 @@ export default function Onboard() {
   if(count == 0) { 
     return (
         <div className='w-[85%] m-auto text-center flex flex-col gap-3 items-center mt-5'>
-                   <h1 className='text-white font-bold md:text-4xl lg:text-4xl sm:text-2xl'>Stap 1. Selecteer jouw lichaams type</h1>
+                   <h1 className='text-white font-bold md:text-4xl lg:text-4xl sm:text-3xl xs:text-3xl'>Stap 1. Selecteer jouw lichaams type</h1>
                    <p className="text-gray-400">Vul de korte quiz in en ontvang jouw persoonlijke trainingsschema</p>
                    <div className='m-10 flex gap-10 sm:flex-col xs:flex-col md:flex-row lg:flex-row'>
                        <button onClick={() => clickHandler('1')} className='xs:px-20 border-[#fba503] shadow-2xl shadow-[#fba503] border-2 p-3 rounded-xl'>
