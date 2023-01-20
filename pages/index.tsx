@@ -17,8 +17,6 @@ const Home: NextPage = () => {
                 <Card title="Gratis leerstof 📚" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia. Nesciunt quo incidunt enim fugit! Quisquam labore molestiae mollitia cum?" btnText="Download ebooks"/>
                 <Card title="Community 🫂" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia. Nesciunt quo incidunt enim fugit! Quisquam labore molestiae mollitia cum?" btnText="Bekijk community"/> 
           </section>
-
-           
        </div>
     </>
 
