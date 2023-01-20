@@ -11,7 +11,7 @@ export default function Hero(props) {
   return (
     <div className='w-100 '>
          <header
-        className={"w-full h-[300px] bg-[url('https://images.pexels.com/photos/416778/pexels-photo-416778.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] bg-cover bg-center flex justify-center items-center"}>
+        className={"w-full h-[300px] bg-[url('https://images.pexels.com/photos/1552103/pexels-photo-1552103.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] bg-cover bg-center flex justify-center items-center"}>
         <div className="flex flex-col justify-center items-center">
             <h1 className=" text-center lg:text-5xl sm:text-3xl xs:text-3xl text-white font-bold drop-shadow-lg">{props.description}
             <span className="text-[#FFA400]"> {props.title}</span>
