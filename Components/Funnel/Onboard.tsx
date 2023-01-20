@@ -36,14 +36,19 @@ export default function Onboard() {
 
   if(count === 1) { 
     return ( 
-        <div className='w-[85%] m-auto text-center flex flex-col gap-3 items-center'>
+        <div className='w-[85%] m-auto text-center flex flex-col gap-3 items-center '>
             <div>
-                <h1 className='text-3xl font-bold text-white'>Stap 2. Bmi berekenen</h1>
-                <div className='flex flex-col gap-2'>
-                    <input type="text"></input>
-                    <input type="text"></input>
-                    <input type="text"></input>
-                    <input type="submit" value="submit" />
+                <h1 className='text-3xl font-bold text-white mt-5'>Stap 2. Bmi berekenen</h1>
+                <br />
+                <div className='flex flex-col gap-3 justify-center flex-1'>
+                    <input type="text" className="px-2 py-2" placeholder='Man of vrouw?'></input>
+                    <input type="text" className="px-2 py-2" placeholder='Leeftijd'></input>
+                    <input type="text" className="px-2 py-2" placeholder='Gewicht'></input>
+                    <input type="text" className="px-2 py-2" placeholder='Lengte'></input>
+                    <button className='font-bold px-2 py-1 bg-[#fba503]'>Berekenen</button>
+                </div>
+                <div className='flex justity-center mt-10 xs:px-20 border-[#fba503] border-2 p-3 shadow-[#fba503] shadow-2xl rounded-xl'>
+                   <Image src="/body1.png" className='m-auto' width={200} height={200} alt="hello"></Image>
                 </div>
             </div>
         </div>
