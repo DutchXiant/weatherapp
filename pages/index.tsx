@@ -12,8 +12,8 @@ const Home: NextPage = () => {
     <>
         <Hero title="€0,50" description="Gepersonaliseerd training & voedingscchema  voor " />
         {/* Section Header */ }
-        <div className='container width-[60%] m-auto '>
-            <div className='flex lg:flex-row  md:flex-row sm:flew-col xs:flex-col m-10'>
+        <div className='container  '>
+            <div className='flex lg:flex-row  md:flex-row sm:flew-col xs:flex-col m-20 gap-3'>
                    <div className='grow md:w-1/2 lg:w-1/2'>
                       <h1 className='text-white md:text-3xl  lg:text-3xl sm:text-2xl xs:text-2xl font-bold'>Hoe Kevin kast is geworden🔥</h1>
                       <br />
