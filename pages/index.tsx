@@ -10,22 +10,22 @@ import { Training } from '../Components/svgs'
 const Home: NextPage = () => {
   return (
     <>
-        <Hero title="MyFitCamp" description="Fit worden begint bij" />
+        <Hero title="€0,50" description="Gepersonaliseerd training & voedingscchema  voor " />
         {/* Section Header */ }
         <div className='container width-[60%] m-auto '>
             <div className='flex lg:flex-row  md:flex-row sm:flew-col xs:flex-col m-10'>
                    <div className='grow md:w-1/2 lg:w-1/2'>
-                      <h1 className='text-white text-3xl font-bold'>Wordt ook KAST!🔥</h1>
+                      <h1 className='text-white md:text-3xl  lg:text-3xl sm:text-2xl xs:text-2xl font-bold'>Hoe Kevin kast is geworden🔥</h1>
                       <br />
-                      <p className='text-gray-500'>Lorem ipsum dolor sit amet conuis eaque asperiores similique in nihil beatae, non iure iste, tempora possimus officiis. Numquam soluta quae cum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad itaque vel sed neque mollitia perferendis, nihil consequuntur veritatis labore corporis accusantium iure illum aut quae ratione deserunt. Laborum corporis numquam delectus est at excepturi aliquam debitis, laboriosam commodi dolorem placeat reiciendis soluta consectetur veniam nulla enim dignissimos rem quasi repudiandae..</p>
-                      <p className='text-gray-500'>Lorem ipsum doli ate est hdebitis commodi illo? Dolor.</p>
-                      <button className='mt-8 px-12 py-3 bg-gradient-to-r from-[#FFA400] to-red-600 hover:from-amber-600 hover:to-red-700 text-xl text-white/70 font-semibold drop-shadow-lg rounded-full'>Bekijk succes verhalen!</button>
+                      <p className='text-gray-400'>Mijn naam is Koen. Ik gebruik myfitcamp nu een tijdje om mijn trainingsschema's en voedingsschema's mee te maken. 2 maanden geleden was ik simpelweg dik, totdat ik deze website een kans gaf. Je vult de vragen in bij de quiz, en krijgt binnen 1 minuut een volledig gepersonaliseerd voeding, en trainingsschema. Voor maar 0,50 cent per dag krijg je elke week een nieuw schema, nieuwe recepten en nieuwe boodschappenlijsjtes zodat je super snel je doel behaald. </p>
+                   
+                      <button className='xs:px-10 sm:px-10  mt-8 px-12 py-3 bg-gradient-to-r from-[#FFA400] to-red-600 hover:from-amber-600 hover:to-red-700 text-xl text-white/70 font-semibold drop-shadow-lg rounded-tl-xl rounded-br-xl'>Bekijk alle succes verhalen!</button>
                       <br />
             
                    </div>
                    <br />
                    <div className=' md:w-1/2 lg:w-1/2'>
-                      <img src="https://i.ibb.co/dfwhG16/mh-12-18-transformation-social-1576705630.jpg"></img>
+                      <img src="https://i.ibb.co/dfwhG16/mh-12-18-transformation-social-1576705630.jpg" className='m-auto rounded-[20px] '></img>
                   </div>
             </div>
        </div>
