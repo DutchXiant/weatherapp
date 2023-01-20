@@ -65,7 +65,7 @@ export default function Onboard() {
                 <br />
                 <div className='flex flex-col gap-3 justify-center flex-1'>
                     <textarea id="w3review" name="w3review" rows="4" cols="50" className='p-2 rounded-xl'></textarea>
-                    <button className='font-bold px-2 py-1 bg-[#fba503] rounded-xl'>Door naar volgende stap!</button>
+                    <button className='font-bold px-2 py-1 bg-[#fba503] rounded-xl' onClick={() => clickHandler}>Door naar volgende stap!</button>
                 </div>
               
             </div>
