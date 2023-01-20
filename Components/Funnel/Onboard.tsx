@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 
 export default function Onboard() {
-  const [count, setCount] = useState(1);
+  const [count, setCount] = useState(0);
   const [selectBody, setSelectedBody] = useState(0);
 
   const clickHandler = (body) => { 
